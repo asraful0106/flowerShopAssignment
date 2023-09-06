@@ -1,0 +1,54 @@
+/* Styel For All */
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Primary Things */
+.primaryBtn {
+    border: none;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Front Part */
+.frontPartSection {
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.frontPart {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontDescription h2 {
+    color: black;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 708px;
+    margin-top: 197px;
+    margin-bottom: 32px;
+}
+
+.frontDescription p {
+    max-width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.frontImg {
+    margin-top: 50px;
+    width: 635px;
+}
+
+.frontImg img {
+    width: 100%;
+}
+
