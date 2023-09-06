@@ -114,7 +114,6 @@
 
 .featredFlowerBackgroundColor3 {
     background: rgba(71, 125, 17, 0.15);
-    ;
 }
 
 /* General Information */
@@ -220,14 +219,95 @@
     margin-bottom: 48px;
 }
 
-.instaPost{
+.instaPost {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 0 240px 128px 240px;
 }
- 
-.instaPost img{
+
+.instaPost img {
     width: 342px;
-height: 396px;
+    height: 396px;
+}
+
+/* Lates Deal */
+
+.latestDealSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.latestDealContainer {
+    height: 449px;
+    width: 1440px;
+    background-image: url(/Images/Rectangle\ 9.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestDealElements h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 21px;
+}
+
+.latestDealElements p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.latestDealElements input {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+    padding-left: 16px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+}
+
+/* Footer Section */
+
+footer {
+    height: 449px;
+    background: #111010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerConainer h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footerConainer h1 span {
+    color: white;
+}
+
+.footerConainer p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+.copyright {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
 }
