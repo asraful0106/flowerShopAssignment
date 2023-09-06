@@ -20,6 +20,7 @@
 .frontPartSection {
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 178px;
 }
 
 .frontPart {
@@ -52,3 +53,66 @@
     width: 100%;
 }
 
+/* Freatured Flowers */
+
+.freaturedFlowerDescription {
+    text-align: center;
+}
+
+.freaturedFlowerDescription h4 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.freaturedFlowerDescription p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.freaturedFlower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.freaturedFlower a {
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.freaturedFlowers {
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 0px 195px 0px;
+}
+
+.freturedFlowerBackground {
+    display: flex;
+    justify-content: center;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 32px;
+}
+
+.freturedFlowerBackground img {
+    margin-top: 110px;
+    width: 310px;
+    height: 428px;
+}
+
+.featredFlowerBackgroundColor1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featredFlowerBackgroundColor2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featredFlowerBackgroundColor3 {
+    background: rgba(71, 125, 17, 0.15);
+    ;
+}
