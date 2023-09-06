@@ -116,3 +116,91 @@
     background: rgba(71, 125, 17, 0.15);
     ;
 }
+
+/* General Information */
+
+.generalInfoSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.generalInfoContainer {
+    width: 68%;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generalsInfos {
+    display: flex;
+    align-items: center;
+}
+
+.generalinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#midFix {
+    margin: 0 100px 0 100px;
+}
+
+.generalinfo p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+
+/* Hotdeal Section */
+.hotDealSection {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    margin-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hotDealCotenier {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hotDealDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotDealDescription h3 {
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 21px;
+}
+
+.hotDealDescription h3 span {
+    color: #E55473;
+}
+
+.hotDealDescription p {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.hotDealCotenier img {
+    width: 318px;
+    height: 420px;
+}
